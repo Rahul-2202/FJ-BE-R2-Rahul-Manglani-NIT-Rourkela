@@ -119,7 +119,7 @@ DATABASES = {
         'NAME': 'Expense_Tracker',
         'USER': 'root',
         'PASSWORD': 'R@hul2202.',
-        'HOST':'localhost',
+        'HOST':'.vercel.app',
         'PORT':'3306',
         'OPTIONS': {
             'charset': 'utf8mb4',

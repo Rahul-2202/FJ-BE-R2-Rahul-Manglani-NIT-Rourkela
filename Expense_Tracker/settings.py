@@ -111,9 +111,9 @@ WSGI_APPLICATION = 'Expense_Tracker.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mydb',
+        'NAME': 'Expense_Tracker',
         'USER': 'root',
-        'PASSWORD': 'admin',
+        'PASSWORD': 'R@hul2202.',
         'HOST':'localhost',
         'PORT':'3306',
     }

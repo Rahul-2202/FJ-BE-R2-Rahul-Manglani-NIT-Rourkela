@@ -10,6 +10,9 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
+
+
+
 from pathlib import Path
 
 
@@ -30,7 +33,7 @@ SECRET_KEY = 'django-insecure-=gg)12!gl6(vw*uf(9a6lvn!_ccw7(*)0yq%@9*g)++1ts!2(0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
+ALLOWED_HOSTS = ['.vercel.app', '.now.sh','127.0.0.1:8000']
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [Path(BASE_DIR)/'static']
@@ -118,6 +121,11 @@ DATABASES = {
         'PASSWORD': 'R@hul2202.',
         'HOST':'localhost',
         'PORT':'3306',
+        'OPTIONS': {
+            'charset': 'utf8mb4',
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+            # 'use_pure': True,  # Use pymysql driver
+        },
     }
 }
 

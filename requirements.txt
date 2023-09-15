@@ -12,7 +12,6 @@ django-environ==0.11.2
 fonttools==4.42.1
 idna==3.4
 kiwisolver==1.4.5
-mysqlclient==2.2.0
 matplotlib==3.7.3
 numpy==1.25.2
 oauthlib==3.2.2
@@ -21,6 +20,7 @@ pandas==2.1.0
 Pillow==10.0.0
 pycparser==2.21
 PyJWT==2.8.0
+PyMySQL==1.1.0
 pyparsing==3.1.1
 python-dateutil==2.8.2
 python3-openid==3.2.0

@@ -20,7 +20,7 @@ through Sendgrid or another service.
 3
 3. Database Upgrade: Transition from SQLite to MySQL to enhance the robustness of your database setup.
 4. Expense Splitting: Introduce a feature to split expenses with others and keep track of who owes whom.
-5. Receipt Uploading: Allow users to upload and store receipts for their transactions.
+5. Receipt Uploading: Allow users to upload and store receipts for their transactions
 
 
 [name='home']
